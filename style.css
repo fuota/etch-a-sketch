@@ -57,3 +57,19 @@ button:hover {
     background-color: #dfd8cb;
 
 }
+img {
+    width: 17px;
+    height:17px;
+}
+footer{
+    margin-top: 20px;
+    font-family: 'Sora', sans-serif;
+
+}
+a {
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    text-decoration: underline;
+}
