@@ -2,6 +2,8 @@ const sizeButtons = document.querySelectorAll(".size")
 const items = document.querySelectorAll(".item")
 const container = document.querySelector(".container")
 
+const initialSizeButton = document.querySelector("button[value='30']")
+initialSizeButton.classList.add("active");
 
 Array.prototype.randomchoice = function(){
     return this[Math.floor(Math.random()*this.length)];
